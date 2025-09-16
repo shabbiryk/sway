@@ -14,7 +14,7 @@ For user documentation, including installing release builds, see the Sway Book: 
 
 For Sway Standard library documentation, see: <https://fuellabs.github.io/sway/master/std/>
 
-Also view the technical reference for the Sway programming language: <https://fuellabs.github.io/sway/master/reference/>
+Also, view the technical reference for the Sway programming language: <https://fuellabs.github.io/sway/master/reference/>
 
 ## Building from Source
 
@@ -22,7 +22,7 @@ This section is for developing the Sway compiler and toolchain. For developing c
 
 ### Dependencies
 
-Sway is built in Rust. To begin, install the Rust toolchain following instructions at <https://www.rust-lang.org/tools/install>. Then configure your Rust toolchain to use Rust `stable`:
+Sway is built in Rust. To begin, install the Rust toolchain following the instructions at <https://www.rust-lang.org/tools/install>. Then configure your Rust toolchain to use Rust `stable`:
 
 ```sh
 rustup default stable
@@ -34,7 +34,7 @@ If not already done, add the Cargo bin directory to your `PATH` by adding the fo
 export PATH="${HOME}/.cargo/bin:${PATH}"
 ```
 
-### Building Forc
+### Building Fork
 
 Clone the repository and build the Sway toolchain:
 
